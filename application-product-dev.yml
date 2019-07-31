@@ -2,11 +2,11 @@ server:
   port: 4000
 spring:
   application:
-    name: aishop-product
+    name: product-service
   datasource:
-    data-password: hu147258
     username: root
-    url: jdbc:mysql:///aishop
+    data-password: hu147258
+    url: jdbc:mysql:///aishop?useUnicode=true&characterEncoding=utf8
     driver-class-name: com.mysql.jdbc.Driver
 
 
