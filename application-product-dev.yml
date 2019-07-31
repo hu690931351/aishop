@@ -3,4 +3,10 @@ server:
 spring:
   application:
     name: aishop-product
+  datasource:
+    data-password: hu147258
+    username: root
+    url: jdbc:mysql:///aishop
+    driver-class-name: com.mysql.jdbc.Driver
+
 
