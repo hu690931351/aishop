@@ -5,7 +5,7 @@ spring:
     name: product-service
   datasource:
     username: root
-    data-password: hu147258
+    password: hu147258
     url: jdbc:mysql:///aishop?useUnicode=true&characterEncoding=utf8
     driver-class-name: com.mysql.jdbc.Driver
 
