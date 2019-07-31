@@ -10,4 +10,7 @@ zuul:
     plat:
       path: /plat/** #平台服务的请求路径
       serviceId: aishop-plat
+    plat:
+      path: /produc/** #平台服务的请求路径
+      serviceId: product-service
   prefix: /services #请求前缀
